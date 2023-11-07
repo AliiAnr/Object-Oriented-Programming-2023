@@ -4,6 +4,9 @@ public class Main {
    public static void main(String[] args) {
       Monster monster = new Monster("Sally", 80, 20, 10);
       Alien alien = new Alien("Zograd", 80, 20, 10);
+      monster.showEntity();
+      alien.showEntity();
+      System.out.println();
       System.out.println("Battle Start!");
       System.out.println();
       int turnMons = 1, turnAlien = 1;

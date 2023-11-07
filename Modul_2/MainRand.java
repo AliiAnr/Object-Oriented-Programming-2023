@@ -7,6 +7,9 @@ public class MainRand {
       Monster monster = new Monster("Sally", 80, 20, 10);
       Alien alien = new Alien("Zograd", 80, 20, 10);
       Random rand = new Random ();
+      monster.showEntity();
+      alien.showEntity();
+      System.out.println();
       System.out.println("Battle Start!");
       System.out.println();
       int turnMons = 0, turnAlien = 0;
