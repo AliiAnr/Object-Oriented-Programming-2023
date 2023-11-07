@@ -17,7 +17,7 @@ public class Alien extends Entity implements Behavior {
 
    @Override
    public void showEntity() {
-      System.out.println("Monster: " + getName() + " | " + "Health: " + getHealth() + " | " + "Attack: " + getAttack()
+      System.out.println("Alien: " + getName() + " | " + "Health: " + getHealth() + " | " + "Attack: " + getAttack()
             + " | " + "Defence: " + getDefence() + " |");
    }
 
