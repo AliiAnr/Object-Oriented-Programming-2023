@@ -34,8 +34,8 @@ public class MainRand {
          if (alien.getCount() >= 4) {
              System.out.println("The alien " + alien.getName() + " attacks " + monster.getName() + " with a special attack!");
              monster.setHealth(monster.getHealth() - alien.specialSKill());
-             System.out.println(monster.getName() + " | " + monster.getHealth());
              System.out.println(alien.getName() + " | " + alien.getHealth());
+             System.out.println(monster.getName() + " | " + monster.getHealth());
              turnAlien = 1;
              System.out.println();
          } else {
@@ -43,8 +43,8 @@ public class MainRand {
              monster.setHealth(monster.getHealth() - alien.attack(monster));
              turnAlien++;
              alien.setCount(turnAlien);
-             System.out.println(monster.getName() + " | " + monster.getHealth());
              System.out.println(alien.getName() + " | " + alien.getHealth());
+             System.out.println(monster.getName() + " | " + monster.getHealth());
              System.out.println();
          }
      
