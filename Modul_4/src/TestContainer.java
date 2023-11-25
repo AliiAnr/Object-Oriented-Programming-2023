@@ -40,7 +40,7 @@ public class TestContainer extends JFrame {
    private int space = 0;
 
    TestContainer(String username) {
-      super("Container");
+      super("Let's Type");
       this.username = username;
       Font poppinsFont = null;
       Font poppinsFontBold = null;

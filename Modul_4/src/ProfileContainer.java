@@ -17,7 +17,7 @@ public class ProfileContainer extends JFrame {
    private int no_attempt_high_score;
 
    ProfileContainer(String username) {
-      super("Container");
+      super("Profile");
       this.username = username;
       
       getUserStats(username);

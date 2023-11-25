@@ -14,7 +14,7 @@ public class LeaderBoard extends JFrame {
 
    LeaderBoard() {
 
-      super("Container");
+      super("Leaderboard");
 
       List<UserScore> leaderBoard = getLeaderboard();
 

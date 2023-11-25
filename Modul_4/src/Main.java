@@ -5,6 +5,27 @@ import java.sql.SQLException;
 
 public class Main {
    public static void main(String[] args) {
+      
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      // JANGAN LUPA BACA FILE README.MD SEBELUM RUN !!!
+      
       try {
          new Database();
       } catch (SQLException | ClassNotFoundException e) {
@@ -13,7 +34,7 @@ public class Main {
 
       LoginContainer loginContainer = new LoginContainer();
       JPanel panel = new JPanel();
-      JFrame frame = new JFrame("Typing");
+      JFrame frame = new JFrame("ALI GANTENG");
 
       panel.setLayout(new GridBagLayout());
       panel.add(loginContainer);

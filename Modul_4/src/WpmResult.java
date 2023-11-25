@@ -9,7 +9,7 @@ public class WpmResult extends JFrame {
    private int wpm;
 
    WpmResult(String username, int wpm) {
-      super("Container");
+      super("WPM Result");
       this.username = username;
       this.wpm = wpm;
 
